@@ -1,0 +1,10 @@
+<div id="<%= dom_id post %>" class="scaffold_record" style="display:flex;width:100vw">
+  <div style="width:50%">
+    Here is the original image.<br>
+    <%= image_tag post.image, width: '100%' %>
+  </div>
+  <div style="width:50%">
+    Here is the AVIF variant. Check the "Content-type" header in devtools.<br>
+    <%= image_tag post.image.variant(format: 'avif'), width: '100%' %>
+  </div>
+</div>
