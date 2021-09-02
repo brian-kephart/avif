@@ -1,4 +1,11 @@
 GIT
+  remote: https://github.com/rails/marcel.git
+  revision: 51a8f5535f927c1494bd6fc78abc3021aedf681b
+  branch: main
+  specs:
+    marcel (1.0.1)
+
+GIT
   remote: https://github.com/rails/rails.git
   revision: 174ee7bb602f63e7a5c44ec52e6592f3a5dd10b1
   branch: main
@@ -124,7 +131,6 @@ GEM
       nokogiri (>= 1.5.9)
     mail (2.7.1)
       mini_mime (>= 0.1.1)
-    marcel (1.0.1)
     method_source (1.0.0)
     mini_magick (4.11.0)
     mini_mime (1.1.1)
@@ -206,6 +212,7 @@ DEPENDENCIES
   image_processing (~> 1.2)
   jbuilder (~> 2.7)
   listen (~> 3.3)
+  marcel!
   puma (~> 5.0)
   rack-mini-profiler (~> 2.0)
   rails!
